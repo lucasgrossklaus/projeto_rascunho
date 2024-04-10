@@ -1,0 +1,53 @@
+/reset/
+    
+ body {
+
+    margin: 0;
+    }
+    /geral/
+    html {
+      font-family: 'open sans', sans-serif 
+    }
+    h1, h2, h3, h4, h5, p, span {
+       margin:0; 
+       color:#666;
+    }   
+    .container {
+        max-width:1930px;
+        width:100%;
+    }
+    header {
+        position:relative;
+        top:0;
+        height:auto;
+        width:100%;
+    }
+    nav {
+        position:fixed;
+        top:0;
+        height:100px;
+        width:100%;
+        z-index:1;
+        background-color:#BA55D3;
+        border botton:1px solid #000000;
+    }
+    nav: after {
+        clear:soth;
+        content:soth;
+        display:block;
+        height:50px;
+        width:50px;
+        background-color:#00FFFF
+    }
+    .nav-container {
+        max-width:1200px;
+        position: relative;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    #logo {
+        width:50px;
+        height:50px;
+        margin-top:25px;
+        margin-left:25px;
+    }
